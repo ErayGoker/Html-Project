@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    
+<form action="register.php">
+
+<input type="text">
+
+<button type="submit">kaydet</button>
+<input type="reset" value="Temizle">
+
+<br><br>
+<div id="Kullanici bilgileri">
+
+    <label for="name">Ad:</label>
+    <input type="text" id="name">
+
+    <label for="Surname">Soyad:</label>
+    <input type="text" id="Surname">
+
+</div>
+<br>
+
+    <label for="Email" >Email adresi:</label>
+    <input type="email"  id="Email">
+
+    <label for="Birthday">Dogum Tarihi</label>
+    <input type="datetime-local"  id="Birthday">
+
+
+<div>
+    <!-- checkbox ta olmuyor name vermek sadece radio da oluyor -->
+    <h4>En sevdiginiz programlama dili nedir</h4>
+
+    <input type="radio" id="Html"  name="programlama" >
+    <label for="Html">Html</label>
+
+    <input type="radio"  id="Css"  name="programlama" >
+    <label for="Css">Css</label>
+
+    <input type="radio" id="Javascript"  name="programlama">
+    <label for="Javascript">Javascript</label>
+
+<br><br>
+
+    <input type="checkbox" id="Html2"  >
+    <label for="Html2">Html</label>
+
+    <input type="checkbox"  id="Css2"  >
+    <label for="Css2">Css</label>
+
+    <input type="checkbox" id="Javascript2">
+    <label for="Javascript2">Javascript</label>
+
+</div>
+<br>
+<div>
+
+    <p>Hikayenizi yaziniz</p>
+
+    <textarea id="Hikayeni yaz" rows="20" cols="20" ></textarea>
+</div>
+
+<div>
+    il 
+        <select  id="cities">
+            <option value="35">Izmir</option>
+            <option value="34">Istanbul</option>
+            <option value="10">Bursa</option>
+            <option value="1">Adana</option>
+        </select>
+</div>
+<br>
+
+
+<div>
+    <label for="password">Sifre</label>
+    <input type="password"  id="password">
+<br><br>
+</div>
+
+<div>
+    
+    <label for="number">Sayi giriniz</label>
+
+    <input type="number"  id="number" max="10" min="1">
+   
+
+
+</div>
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+</head>
+<body>
+    <header>
+<h1 style="color:white; background-color:black;">Lutfen Formu Eksiksiz Doldurunuz</h1>
+</header>
+
+<main>
+    <fieldset>
+    <legend><h2>Hesap Bilgileri</h2></legend>
+
+<table>
+    <tbody>
+        <div id="Hesap Bilgileri"></div>   
+        <form action="register.php">   
+            <tr>
+       
+
+                <div id="kullanici adi" >
+                    <td>
+                        <label for="Name"> <b>Kullanici adi:</b></label>
+                    </td>
+
+                    <td style="width: 20px;"></td>
+
+                    <td>
+                        <!-- autofocus sayfa acildigi gibi oraya focuslanir value de placeholderdan farki yazinin otomatik silinmemesi yazi orda var olarak geliyor maxlegenth yazicaginiz yazinin maxsimum harfi soyler redonly inputun tiklanabilirliginin aliyor sadece okunabilir yapiyor  required ozelligi bos birakamassiniz demek girmek zorundasiniz -->
+                        <input type="text" id="Name" autofocus maxlength="10" required placeholder="kullanici adinizi giriniz" >
+                    </td>
+                    
+                </div>
+            </tr>
+
+            <tr style="height: 2px;"></tr>
+        
+            <tr>
+                <div id="Email adress">
+
+                    <td>
+                        <label for="Email"> <b>Email Adresi:</b></label>
+                    </td>
+
+                    <td style="width: 20px;"></td>
+
+                    <td>
+                        <input type="email" id="Email" placeholder="Eposta adresinizi giriniz" >
+                    </td>
+
+                </div>  
+
+            </tr>
+
+            <tr style="height: 2px;"></tr>
+
+            <tr>
+                <div id="password">
+
+                    <td>
+
+                    
+                        <label for="Password"> <b>Parola:</b></label>
+                    </td>
+
+                    <td style="width: 20px;"></td>
+
+                    <td>
+                        <input type="password" id="Password" placeholder="Paralayi giriniz" >
+                    </td>
+
+                 </div>  
+        
+            </tr>
+        </div>
+       
+    </tbody>
+</table>
+
+
+
+<table>
+    <tbody>
+       <div id="Kisisel Bilgiler">
+       
+            <h2>Kisisel Bilgiler</h2>
+                <div id="name">
+                    <tr>
+                        <td>
+                            <label for="Name"><b> Adiniz: </b></label> 
+                        </td>
+
+                        <td style="width: 20px;"></td>
+                    
+                        <td>
+                            <input type="text" id="Name" placeholder="Adinizi giriniz">
+                        </td>
+                </div>
+
+                    <tr style="height: 2px;"></tr>
+
+                    </tr>    
+                <div id="surname">
+                    <tr>
+                        <td>
+                            <label for="Surname"><b> Soyadiniz: </b></label>
+                        </td>
+                            <td style="width: 20px;"></td>
+                        <td><input type="text" id="Surname" placeholder="Soyadinizi giriniz"></td>
+                    </tr>
+
+                </div>
+
+                    <tr style="height: 2px;"></tr>
+
+                <div id="sehir">
+                    <tr>
+                        <td>
+                            <label for="Sehir"><b>Sehir:</b></label>
+                        </td>
+
+                        <td style="width: 20px;"></td>
+                        
+                        <td>
+                            <select id="Sehir">
+                                <option value="0">seciniz</option>
+                                <option value="35">Izmir</option>
+                                <option value="34">Istanbul</option>
+                                <option value="10">Bursa</option>
+                                <option value="1">Adana</option>
+                                <option value="61">Trabzon</option>
+
+                            </select>
+                        </td>   
+                    </tr>
+                </div>
+
+                    <tr style="height: 1px;"></tr>
+
+                <div id="cinsiyet">
+                    <tr>
+                        <td>
+                            <label><b>Cinsiyet:</b></label>
+                        </td>
+
+                        <td style="width: 20px;"></td>
+
+                        <td>
+                            <input type="radio" name="cinsiyet" id="Erkek">
+                            <label for="Erkek">Erkek</label>
+                            <input type="radio" name="cinsiyet" id="Kadin">
+                            <label for="Kadin">Kadin</label>
+
+                        </td>
+
+                    </tr>
+                </div>
+
+                    <tr style="height: 2px;"></tr>
+
+                <div id="hobi">
+                    <tr>
+                        <td>
+                            <label><b>Hobileriniz:</b></label>
+                        </td>
+                        
+                        <td style="width: 20px;"></td>
+
+                        <td>
+                            <input type="checkbox"  id="Sinema">
+                            <label for="Sinema">Sinema</label>
+                            <input type="checkbox"  id="Gezmek">
+                            <label for="Gezmek">Gezmek</label>
+                            <input type="checkbox" id="Spor">
+                            <label for="Spor">Spor</label>
+
+                        </td>
+
+                    </tr>
+                </div>
+
+                    <tr style="height: 2px;"></tr>
+
+                <div id="kaydet/temizle">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button type="submit">Kaydet</button>
+                            <input type="reset">
+                        </td>
+                    </tr>
+                </div>
+                
+
+ 
+
+        </div>
+        </form>
+    </tbody>        
+        
+</table>
+</fieldset>
+
+</main>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        th{
+            background-color: blue;
+            color: snow;
+            }
+   table{     
+    border: 2px solid blue;
+    border-spacing: 1px;    
+     
+       /* tablodaki bosluklarin mesafesini ayarlar */
+}
+    tr td,th{
+        border: 0px solid gray;
+        
+        
+    }
+    td:nth-child(2){
+        background-color: silver;
+        color: blue;
+    }
+
+    /* td:nth-child(1) yazarak ilk td ye bir seyler eklenebilir */
+    
+        
+    
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Yazilim Kurslari</title>
+
+</head>
+<body>
+
+<table  >
+    <thead > 
+    
+        <tr>
+            <th>Resim</th>
+            <th>Kurs adi</th>
+            <th>Aciklama</th>
+            <th>Kategori</th>
+            <th>Kursu incele</th>
+   
+        </tr>
+    </thead> 
+
+    <tbody>
+        <tr>
+            <td><img src="https://img-c.udemycdn.com/course/100x100/1258436_2dc3_4.jpg"></td>
+            <td>Komple uygulamali web gelistirme egitimi</td>
+            <td>Sifirdan ileri seviye 'web gelistirme':HTML CSS SASS FLEXBOX BOOTSTROP JAVASCRIPT ANGULAR JQUARY ASP.NET MVC</td>
+            <td rowspan="2">Web gelistirme</td>
+            <td rowspan="3"><a href="https://sadikturan.com/komple-web-gelistime-kursu" target="_blank" >site linki</td></a> 
+            
+        </tr>
+
+
+        <tr>
+            <td> <img src="https://img-c.udemycdn.com/course/100x100/3952174_5d3a.jpg"> </td>
+            <td>Php ile Sifirdan Ileri Seviye Web Programlamam Kursu</td>
+            <td>Sifirdan php dersleri ile dinamik php uygulamalari gelistirebilirsin</td>
+            
+        </tr>
+
+        <tr>
+            <td><img src="https://img-c.udemycdn.com/course/100x100/2463492_8344_3.jpg"></td>
+            <td>Python ile sifirdan ileri seviye python dersleri programlama</td>
+            <td>Sifirdan ileri seviye python dersleri,veritabani,veri analizi,bot yazilimi,web gelistirme</td>
+            <td>programlama</td>
+        
+        </tr>
+
+
+    </tbody>
+
+</table>
+
+
+
+
+</body>
+</html>
